@@ -1,0 +1,78 @@
+[
+    {
+        "actual": "Stocks GLOBALTotal",
+        "new": "Global Total Inventory"
+    },
+    {
+        "actual": "Stocks GLOBALRaw Material",
+        "new": "Global Raw Material Inventory"
+    },
+    {
+        "actual": "Stocks GLOBALWork in Process",
+        "new": "Global Work in Process Inventory"
+    },
+    {
+        "actual": "Stocks GLOBALFinished Good",
+        "new": "Global Finished Good Inventory"
+    },
+    {
+        "actual": "Stocks GLOBAL S/ KANNISTotal",
+        "new": "Global sem KANNIS Total Inventory"
+    },
+    {
+        "actual": "Stocks GLOBAL S/ KANNISRaw Material",
+        "new": "Global sem KANNIS Raw Material Inventory"
+    },
+    {
+        "actual": "Stocks GLOBAL S/ KANNISWork in Process",
+        "new": "Global sem KANNIS Work in Process Inventory"
+    },
+    {
+        "actual": "Stocks GLOBAL S/ KANNISFinished Good",
+        "new": "Global sem KANNIS Finished Good Inventory"
+    },
+    {
+        "actual": "Stocks BRASILTotal",
+        "new": "Brasil Total Inventory"
+    },
+    {
+        "actual": "Stocks JGSTotal",
+        "new": "JGS Total Inventory"
+    },
+    {
+        "actual": "Stocks WSBTotal",
+        "new": "WSB Total Inventory"
+    },
+    {
+        "actual": "Stocks HISATotal",
+        "new": "HISA Total Inventory"
+    },
+    {
+        "actual": "Stocks TMGTotal",
+        "new": "TGM Total Inventory"
+    },
+    {
+        "actual": "Stocks EOLTotal",
+        "new": "EOL Total Inventory"
+    },
+    {
+        "actual": "Stocks WIITotal",
+        "new": "WII Total Inventory"
+    },
+    {
+        "actual": "Stocks WEMTotal",
+        "new": "WEM Total Inventory"
+    },
+    {
+        "actual": "Stocks WNTTotal",
+        "new": "WNT Total Inventory"
+    },
+    {
+        "actual": "Stocks WPTTotal",
+        "new": "WPT Total Inventory"
+    },
+    {
+        "actual": "Stocks KANNISTotal",
+        "new": "KANNIS Total Inventory"
+    }
+]
