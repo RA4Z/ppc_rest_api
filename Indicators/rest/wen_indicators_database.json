@@ -2112,7 +2112,7 @@
         ]
     },
     {
-        "Indicador": "% Ordens no Prazo WII",
+        "Indicador": "Atendimento das OVs WII",
         "Meta": 0.86,
         "Resp. Atualizar": null,
         "averages": [
@@ -2136,7 +2136,7 @@
         ]
     },
     {
-        "Indicador": "% Ordens no Prazo EM",
+        "Indicador": "Atendimento das OVs WEM",
         "Meta": null,
         "Resp. Atualizar": null,
         "averages": [
@@ -2208,7 +2208,7 @@
         ]
     },
     {
-        "Indicador": "% Ordens no Prazo TGM",
+        "Indicador": "Atendimento das OVs TGM",
         "Meta": 0.9,
         "Resp. Atualizar": null,
         "averages": [
@@ -2232,7 +2232,7 @@
         ]
     },
     {
-        "Indicador": "% Ordens no Prazo JGS",
+        "Indicador": "Atendimento das OVs JGS",
         "Meta": 0.9,
         "Resp. Atualizar": "Alisson",
         "averages": [
@@ -2256,7 +2256,7 @@
         ]
     },
     {
-        "Indicador": "% Ordens no Prazo SBC Partes e peças",
+        "Indicador": "Atendimento das OVs WSB",
         "Meta": 0.97,
         "Resp. Atualizar": null,
         "averages": [

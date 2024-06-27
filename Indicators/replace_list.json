@@ -74,5 +74,25 @@
     {
         "actual": "Stocks KANNISTotal",
         "new": "KANNIS Total Inventory"
+    },
+    {
+        "actual": "% Ordens no Prazo WII",
+        "new": "Atendimento das OVs WII"
+    },
+    {
+        "actual": "% Ordens no Prazo EM",
+        "new": "Atendimento das OVs WEM"
+    },
+    {
+        "actual": "% Ordens no Prazo TGM",
+        "new": "Atendimento das OVs TGM"
+    },
+    {
+        "actual": "% Ordens no Prazo JGS",
+        "new": "Atendimento das OVs JGS"
+    },
+    {
+        "actual": "% Ordens no Prazo SBC Partes e peças",
+        "new": "Atendimento das OVs WSB"
     }
 ]

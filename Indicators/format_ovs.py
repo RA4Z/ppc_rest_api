@@ -1,6 +1,14 @@
 import datetime
+import json
 
 target_year = int((datetime.date.today() - datetime.timedelta(days=datetime.date.today().day)).strftime("%Y"))
+replace_list = json.load(open("Indicators/replace_list.json", "r", encoding="utf-8"))
+
+def replace_strings(actual: str):
+    for item in replace_list:
+        if item["actual"] == actual:
+            return f'{item["new"]}'
+    return None
 
 def delete_months(item):
     del item[f'Acum {target_year - 2}']
@@ -29,6 +37,11 @@ def formatar_json(data):
                 item['data'] = [item['JAN'], item['FEV'], item['MAR'], item['ABR'], item['MAI'], item['JUN'],
                                 item['JUL'], item['AGO'], item['SET'], item['OUT'], item['NOV'], item['DEZ']]
                 delete_months(item)
+
+                new = replace_strings(item['Indicador'])
+                if new is not None:
+                    item['Indicador'] = new
+
                 formatted_data.append(item)
 
     return formatted_data

@@ -28,7 +28,8 @@
         "empresa": "JGS",
         "indicadores": [
             "JGS Total Inventory*",
-            "JGS Total Inventory Turns"
+            "JGS Total Inventory Turns",
+            "Atendimento das OVs JGS"
         ]
     },
     {
@@ -37,7 +38,16 @@
         "empresa": "WSB",
         "indicadores": [
             "WSB Total Inventory*",
-            "WSB Total Inventory Turns"
+            "WSB Total Inventory Turns",
+            "Atendimento das OVs WSB"
+        ]
+    },
+    {
+        "id": "Brazil",
+        "country": "Brasil",
+        "empresa": "TGM",
+        "indicadores": [
+            "Atendimento das OVs TGM"
         ]
     },
     {
@@ -64,7 +74,8 @@
         "empresa": "WEM",
         "indicadores": [
             "WEM Total Inventory*",
-            "WEM Total Inventory Turns"
+            "WEM Total Inventory Turns",
+            "Atendimento das OVs WEM"
         ]
     },
     {
@@ -73,7 +84,8 @@
         "empresa": "WII",
         "indicadores": [
             "WII Total Inventory*",
-            "WII Total Inventory Turns"
+            "WII Total Inventory Turns",
+            "Atendimento das OVs WII"
         ]
     },
     {
