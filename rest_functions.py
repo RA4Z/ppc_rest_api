@@ -6,8 +6,6 @@ from AIs.gemini_search_folders import SearchFoldersAI
 from AIs.gemini_secretary_prompt import SecretaryAI
 
 import json
-
-atualizar_stocks()
 user_ias = {}
 
 
@@ -81,3 +79,6 @@ def update():
         mesclar_dados()
     except Exception as e:
         print(str(e))
+
+
+update()

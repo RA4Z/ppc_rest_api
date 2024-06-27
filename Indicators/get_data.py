@@ -75,10 +75,11 @@ def atualizar_atendimento_ov():
     print("Arquivo JSON gerado com sucesso: OVs.json")
 
 def mesclar_dados():
-    data = [json.load(open("data/stocks.json", "r", encoding="utf-8")),
-            json.load(open("data/OVs.json", "r", encoding="utf-8"))]
+    data = [json.load(open("Indicators/data/stocks.json", "r", encoding="utf-8")) +
+            json.load(open("Indicators/data/OVs.json", "r", encoding="utf-8"))]
     with open("Indicators/rest/wen_indicators_database.json", "w", encoding="utf-8") as json_file:
         json.dump(data, json_file, ensure_ascii=False, indent=4)
+    print('Dados para WEN Indicators mesclados com sucesso!')
 
 
 if __name__ == "__main__":

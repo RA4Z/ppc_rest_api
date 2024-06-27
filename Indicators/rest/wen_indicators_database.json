@@ -2015,13 +2015,16 @@
                 26.252922693928692,
                 26.252922693928692
             ]
-        }
-    ],
-    [
+        },
         {
             "Indicador": "2.1 Atingir 90% de atendimento das Ordens de venda no prazo JGS+HISA.",
             "Meta": 0.9,
             "Resp. Atualizar": "Alisson",
+            "averages": [
+                0.5383623468729851,
+                0.8837478311162522,
+                0.869281045751634
+            ],
             "data": [
                 0.8245614035087719,
                 0.8103448275862069,
@@ -2035,17 +2038,17 @@
                 null,
                 null,
                 null
-            ],
-            "averages": [
-                0.5383623468729851,
-                0.8837478311162522,
-                0.869281045751634
             ]
         },
         {
             "Indicador": "2.2 Atingir 89% de atendimento das Ordens de Venda de Serviços e Máquinas Novas no prazo em São Bernardo do Campo",
             "Meta": 0.89,
             "Resp. Atualizar": "Anderson",
+            "averages": [
+                0.9852631578947368,
+                0.8696969696969697,
+                0.9256756756756757
+            ],
             "data": [
                 0.9444444444444444,
                 0.8974358974358975,
@@ -2059,17 +2062,17 @@
                 null,
                 null,
                 null
-            ],
-            "averages": [
-                0.9852631578947368,
-                0.8696969696969697,
-                0.9256756756756757
             ]
         },
         {
             "Indicador": "2.3. Concluir no mínimo 85% no prazo nas atividades cadastradas no SMART dos projetos do fluxo de Introdução de Novos Produtos aprovados pela diretoria (Válido a partir do projeto conceitual)",
             "Meta": null,
             "Resp. Atualizar": "Karol",
+            "averages": [
+                null,
+                null,
+                null
+            ],
             "data": [
                 1,
                 1,
@@ -2080,11 +2083,6 @@
                 null,
                 null,
                 null,
-                null,
-                null,
-                null
-            ],
-            "averages": [
                 null,
                 null,
                 null
@@ -2094,6 +2092,11 @@
             "Indicador": "% Atendimento OV no prazo Turbinas   ( VÁLIDO PARA TURBINAS)",
             "Meta": null,
             "Resp. Atualizar": "Rogerio",
+            "averages": [
+                0.6835443037974683,
+                0.9885057471264368,
+                1
+            ],
             "data": [
                 1,
                 1,
@@ -2107,17 +2110,17 @@
                 null,
                 null,
                 null
-            ],
-            "averages": [
-                0.6835443037974683,
-                0.9885057471264368,
-                1
             ]
         },
         {
             "Indicador": "% Ordens no Prazo WII",
             "Meta": 0.86,
             "Resp. Atualizar": null,
+            "averages": [
+                0.8165374677002584,
+                0.8249400479616307,
+                0.8789808917197452
+            ],
             "data": [
                 0.8823529411764706,
                 0.8709677419354839,
@@ -2131,17 +2134,17 @@
                 null,
                 null,
                 null
-            ],
-            "averages": [
-                0.8165374677002584,
-                0.8249400479616307,
-                0.8789808917197452
             ]
         },
         {
             "Indicador": "% Ordens no Prazo EM",
             "Meta": null,
             "Resp. Atualizar": null,
+            "averages": [
+                0.36363636363636365,
+                0,
+                0.25
+            ],
             "data": [
                 0.5,
                 0,
@@ -2155,17 +2158,17 @@
                 null,
                 null,
                 null
-            ],
-            "averages": [
-                0.36363636363636365,
-                0,
-                0.25
             ]
         },
         {
             "Indicador": "% Ordens no Prazo EM Partes e Peças",
             "Meta": null,
             "Resp. Atualizar": "Anderson",
+            "averages": [
+                0.8592188919164396,
+                0.7020183486238533,
+                0.687693898655636
+            ],
             "data": [
                 0.6493506493506493,
                 0.4674329501915709,
@@ -2179,17 +2182,17 @@
                 null,
                 null,
                 null
-            ],
-            "averages": [
-                0.8592188919164396,
-                0.7020183486238533,
-                0.687693898655636
             ]
         },
         {
             "Indicador": "% Ordens no Prazo EM Máquinas e Serviços",
             "Meta": null,
             "Resp. Atualizar": "Anderson",
+            "averages": [
+                0.8014911463187325,
+                0.2777777777777778,
+                0.7086956521739131
+            ],
             "data": [
                 0.7272727272727273,
                 0.5384615384615384,
@@ -2203,17 +2206,17 @@
                 null,
                 null,
                 null
-            ],
-            "averages": [
-                0.8014911463187325,
-                0.2777777777777778,
-                0.7086956521739131
             ]
         },
         {
             "Indicador": "% Ordens no Prazo TGM",
             "Meta": 0.9,
             "Resp. Atualizar": null,
+            "averages": [
+                0.863013698630137,
+                0.8888888888888888,
+                0.9166666666666666
+            ],
             "data": [
                 0.8181818181818182,
                 1,
@@ -2227,17 +2230,17 @@
                 null,
                 null,
                 null
-            ],
-            "averages": [
-                0.863013698630137,
-                0.8888888888888888,
-                0.9166666666666666
             ]
         },
         {
             "Indicador": "% Ordens no Prazo JGS",
             "Meta": 0.9,
             "Resp. Atualizar": "Alisson",
+            "averages": [
+                0.5305706521739131,
+                0.8781973203410475,
+                0.8664440734557596
+            ],
             "data": [
                 0.8181818181818182,
                 0.8018018018018018,
@@ -2251,17 +2254,17 @@
                 null,
                 null,
                 null
-            ],
-            "averages": [
-                0.5305706521739131,
-                0.8781973203410475,
-                0.8664440734557596
             ]
         },
         {
             "Indicador": "% Ordens no Prazo SBC Partes e peças",
             "Meta": 0.97,
             "Resp. Atualizar": null,
+            "averages": [
+                0.9850657108721624,
+                0.9213715637008573,
+                0.9939824945295405
+            ],
             "data": [
                 0.9978070175438597,
                 0.9949874686716792,
@@ -2275,17 +2278,17 @@
                 null,
                 null,
                 null
-            ],
-            "averages": [
-                0.9850657108721624,
-                0.9213715637008573,
-                0.9939824945295405
             ]
         },
         {
             "Indicador": "% Atendimento OV no prazo Serviços de Turbinas",
             "Meta": null,
             "Resp. Atualizar": "Rogerio",
+            "averages": [
+                null,
+                0.8823529411764706,
+                0.2
+            ],
             "data": [
                 "#DIV/0!",
                 0,
@@ -2299,11 +2302,6 @@
                 null,
                 null,
                 null
-            ],
-            "averages": [
-                null,
-                0.8823529411764706,
-                0.2
             ]
         }
     ]
