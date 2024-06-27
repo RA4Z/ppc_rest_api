@@ -45,7 +45,7 @@
     },
     {
         "actual": "Stocks HISATotal",
-        "new": "HISA Total Inventory"
+        "new": "WTB Total Inventory"
     },
     {
         "actual": "Stocks TMGTotal",
@@ -84,6 +84,14 @@
         "new": "Atendimento das OVs WEM"
     },
     {
+        "actual": "% Ordens no Prazo EM Partes e Peças",
+        "new": "Atendimento das OVs WEM Partes e Peças"
+    },
+    {
+        "actual": "% Ordens no Prazo EM Máquinas e Serviços",
+        "new": "Atendimento das OVs WEM Máquinas e Serviços"
+    },
+    {
         "actual": "% Ordens no Prazo TGM",
         "new": "Atendimento das OVs TGM"
     },
@@ -92,7 +100,19 @@
         "new": "Atendimento das OVs JGS"
     },
     {
+        "actual": "2.2 Atingir 89% de atendimento das Ordens de Venda de Serviços e Máquinas Novas no prazo em São Bernardo do Campo",
+        "new": "Atendimento das OVs WSB Serviços e Máquinas Novas"
+    },
+    {
         "actual": "% Ordens no Prazo SBC Partes e peças",
-        "new": "Atendimento das OVs WSB"
+        "new": "Atendimento das OVs WSB Partes e Peças"
+    },
+    {
+        "actual": "% Atendimento OV no prazo Turbinas   ( VÁLIDO PARA TURBINAS)",
+        "new": "Atendimento das OVs WTB"
+    },
+    {
+        "actual": "% Atendimento OV no prazo Serviços de Turbinas",
+        "new": "Atendimento das OVs Serviços WTB"
     }
 ]

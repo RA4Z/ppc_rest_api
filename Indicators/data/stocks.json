@@ -336,7 +336,7 @@
         ]
     },
     {
-        "Concatenar": "HISA Total Inventory*",
+        "Concatenar": "WTB Total Inventory*",
         "Branch": "HISA",
         "Year": 2024,
         "KPIs": "Inventory",
@@ -392,7 +392,7 @@
         ]
     },
     {
-        "Concatenar": "HISA Total Inventory Turns",
+        "Concatenar": "WTB Total Inventory Turns",
         "Branch": "HISA",
         "Year": 2024,
         "KPIs": "Inventory Turns",

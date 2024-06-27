@@ -24,7 +24,7 @@
         ]
     },
     {
-        "Indicador": "2.2 Atingir 89% de atendimento das Ordens de Venda de Serviços e Máquinas Novas no prazo em São Bernardo do Campo",
+        "Indicador": "Atendimento das OVs WSB Serviços e Máquinas Novas",
         "Meta": 0.89,
         "Resp. Atualizar": "Anderson",
         "averages": [
@@ -72,7 +72,7 @@
         ]
     },
     {
-        "Indicador": "% Atendimento OV no prazo Turbinas   ( VÁLIDO PARA TURBINAS)",
+        "Indicador": "Atendimento das OVs WTB",
         "Meta": null,
         "Resp. Atualizar": "Rogerio",
         "averages": [
@@ -144,7 +144,7 @@
         ]
     },
     {
-        "Indicador": "% Ordens no Prazo EM Partes e Peças",
+        "Indicador": "Atendimento das OVs WEM Partes e Peças",
         "Meta": null,
         "Resp. Atualizar": "Anderson",
         "averages": [
@@ -168,7 +168,7 @@
         ]
     },
     {
-        "Indicador": "% Ordens no Prazo EM Máquinas e Serviços",
+        "Indicador": "Atendimento das OVs WEM Máquinas e Serviços",
         "Meta": null,
         "Resp. Atualizar": "Anderson",
         "averages": [
@@ -240,7 +240,7 @@
         ]
     },
     {
-        "Indicador": "Atendimento das OVs WSB",
+        "Indicador": "Atendimento das OVs WSB Partes e Peças",
         "Meta": 0.97,
         "Resp. Atualizar": null,
         "averages": [
@@ -264,7 +264,7 @@
         ]
     },
     {
-        "Indicador": "% Atendimento OV no prazo Serviços de Turbinas",
+        "Indicador": "Atendimento das OVs Serviços WTB",
         "Meta": null,
         "Resp. Atualizar": "Rogerio",
         "averages": [

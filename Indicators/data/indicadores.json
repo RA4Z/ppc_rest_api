@@ -39,7 +39,8 @@
         "indicadores": [
             "WSB Total Inventory*",
             "WSB Total Inventory Turns",
-            "Atendimento das OVs WSB"
+            "Atendimento das OVs WSB Serviços e Máquinas Novas",
+            "Atendimento das OVs WSB Partes e Peças"
         ]
     },
     {
@@ -53,10 +54,12 @@
     {
         "id": "Brazil",
         "country": "Brasil",
-        "empresa": "HISA",
+        "empresa": "WTB",
         "indicadores": [
-            "HISA Total Inventory*",
-            "HISA Total Inventory Turns"
+            "WTB Total Inventory*",
+            "WTB Total Inventory Turns",
+            "Atendimento das OVs WTB",
+            "Atendimento das OVs Serviços WTB"
         ]
     },
     {
@@ -75,7 +78,9 @@
         "indicadores": [
             "WEM Total Inventory*",
             "WEM Total Inventory Turns",
-            "Atendimento das OVs WEM"
+            "Atendimento das OVs WEM",
+            "Atendimento das OVs WEM Partes e Peças",
+            "Atendimento das OVs WEM Máquinas e Serviços"
         ]
     },
     {
