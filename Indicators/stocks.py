@@ -4,7 +4,7 @@ from Indicators.format_stocks import formatar_json
 
 class Excel:
     def __init__(self, file: str):
-        self.workbook = openpyxl.load_workbook(file, data_only=True)
+        self.workbook = openpyxl.load_workbook(file, data_only=True, keep_vba=True)
         self.sheet = self.workbook['Database']
 
     def count_rows(self, column: int):
