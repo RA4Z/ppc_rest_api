@@ -1,0 +1,290 @@
+[
+    {
+        "Indicador": "2.1 Atingir 90% de atendimento das Ordens de venda no prazo JGS+HISA.",
+        "Meta": 0.9,
+        "Resp. Atualizar": "Alisson",
+        "data": [
+            0.8245614035087719,
+            0.8103448275862069,
+            0.896551724137931,
+            0.9012345679012346,
+            0.8757763975155279,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "averages": [
+            0.5383623468729851,
+            0.8837478311162522,
+            0.869281045751634
+        ]
+    },
+    {
+        "Indicador": "2.2 Atingir 89% de atendimento das Ordens de Venda de Serviços e Máquinas Novas no prazo em São Bernardo do Campo",
+        "Meta": 0.89,
+        "Resp. Atualizar": "Anderson",
+        "data": [
+            0.9444444444444444,
+            0.8974358974358975,
+            0.9310344827586207,
+            1,
+            0.8709677419354839,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "averages": [
+            0.9852631578947368,
+            0.8696969696969697,
+            0.9256756756756757
+        ]
+    },
+    {
+        "Indicador": "2.3. Concluir no mínimo 85% no prazo nas atividades cadastradas no SMART dos projetos do fluxo de Introdução de Novos Produtos aprovados pela diretoria (Válido a partir do projeto conceitual)",
+        "Meta": null,
+        "Resp. Atualizar": "Karol",
+        "data": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "averages": [
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "Indicador": "% Atendimento OV no prazo Turbinas   ( VÁLIDO PARA TURBINAS)",
+        "Meta": null,
+        "Resp. Atualizar": "Rogerio",
+        "data": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "averages": [
+            0.6835443037974683,
+            0.9885057471264368,
+            1
+        ]
+    },
+    {
+        "Indicador": "% Ordens no Prazo WII",
+        "Meta": 0.86,
+        "Resp. Atualizar": null,
+        "data": [
+            0.8823529411764706,
+            0.8709677419354839,
+            0.9375,
+            0.8709677419354839,
+            0.8275862068965517,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "averages": [
+            0.8165374677002584,
+            0.8249400479616307,
+            0.8789808917197452
+        ]
+    },
+    {
+        "Indicador": "% Ordens no Prazo EM",
+        "Meta": null,
+        "Resp. Atualizar": null,
+        "data": [
+            0.5,
+            0,
+            0,
+            0.3333333333333333,
+            0.5,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "averages": [
+            0.36363636363636365,
+            0,
+            0.25
+        ]
+    },
+    {
+        "Indicador": "% Ordens no Prazo EM Partes e Peças",
+        "Meta": null,
+        "Resp. Atualizar": "Anderson",
+        "data": [
+            0.6493506493506493,
+            0.4674329501915709,
+            0.782608695652174,
+            0.8218390804597702,
+            0.8,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "averages": [
+            0.8592188919164396,
+            0.7020183486238533,
+            0.687693898655636
+        ]
+    },
+    {
+        "Indicador": "% Ordens no Prazo EM Máquinas e Serviços",
+        "Meta": null,
+        "Resp. Atualizar": "Anderson",
+        "data": [
+            0.7272727272727273,
+            0.5384615384615384,
+            0.9,
+            0.7117117117117117,
+            0.5263157894736842,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "averages": [
+            0.8014911463187325,
+            0.2777777777777778,
+            0.7086956521739131
+        ]
+    },
+    {
+        "Indicador": "% Ordens no Prazo TGM",
+        "Meta": 0.9,
+        "Resp. Atualizar": null,
+        "data": [
+            0.8181818181818182,
+            1,
+            1,
+            1,
+            0.8571428571428571,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "averages": [
+            0.863013698630137,
+            0.8888888888888888,
+            0.9166666666666666
+        ]
+    },
+    {
+        "Indicador": "% Ordens no Prazo JGS",
+        "Meta": 0.9,
+        "Resp. Atualizar": "Alisson",
+        "data": [
+            0.8181818181818182,
+            0.8018018018018018,
+            0.8947368421052632,
+            0.9,
+            0.8742138364779874,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "averages": [
+            0.5305706521739131,
+            0.8781973203410475,
+            0.8664440734557596
+        ]
+    },
+    {
+        "Indicador": "% Ordens no Prazo SBC Partes e peças",
+        "Meta": 0.97,
+        "Resp. Atualizar": null,
+        "data": [
+            0.9978070175438597,
+            0.9949874686716792,
+            0.9878048780487805,
+            0.9969230769230769,
+            0.9900497512437811,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "averages": [
+            0.9850657108721624,
+            0.9213715637008573,
+            0.9939824945295405
+        ]
+    },
+    {
+        "Indicador": "% Atendimento OV no prazo Serviços de Turbinas",
+        "Meta": null,
+        "Resp. Atualizar": "Rogerio",
+        "data": [
+            "#DIV/0!",
+            0,
+            1,
+            0,
+            0,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "averages": [
+            null,
+            0.8823529411764706,
+            0.2
+        ]
+    }
+]

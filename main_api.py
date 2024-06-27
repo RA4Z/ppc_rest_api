@@ -32,7 +32,7 @@ def get_wen_indicators():
 
 @app.route('/wen_database')
 def get_wen_database():
-    return jsonify(rest_functions.get_json_file("indicators/data/dados.json"))
+    return jsonify(rest_functions.get_json_file("indicators/rest/wen_indicators_database.json"))
 
 
 @app.route('/update')
