@@ -77,8 +77,11 @@ def update():
         atualizar_stocks()
         atualizar_atendimento_ov()
         mesclar_dados()
+        return True
+
     except Exception as e:
         print(str(e))
+        return False
 
 
 update()
