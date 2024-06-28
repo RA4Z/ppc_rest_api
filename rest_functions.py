@@ -77,11 +77,10 @@ def update():
         atualizar_stocks()
         atualizar_atendimento_ov()
         mesclar_dados()
-        return True
+        return 'Sucesso'
 
     except Exception as e:
-        print(str(e))
-        return False
+        return f'Ocorreu o erro: {str(e)} ao atualizar!'
 
 
 update()
