@@ -25,14 +25,19 @@ def search_secretary_procedure():
     return rest_functions.search_secretary_procedure_function(request)
 
 
-@app.route('/wen_indicators')
+@app.route('/WenIndicators/Indicators/Display')
 def get_wen_indicators():
     return jsonify(rest_functions.get_json_file("indicators/data/indicadores.json"))
 
 
-@app.route('/wen_database')
+@app.route('/WenIndicators/Database/Display')
 def get_wen_database():
     return jsonify(rest_functions.get_json_file("indicators/rest/wen_indicators_database.json"))
+
+
+@app.route('/WenIndicators/Replace/Display')
+def get_wen_replace():
+    return jsonify(rest_functions.get_json_file("indicators/replace_list.json"))
 
 
 @app.route('/update')
