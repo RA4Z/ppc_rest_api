@@ -48,8 +48,6 @@ def atualizar_stocks():
     with open("Indicators/data/stocks.json", "w", encoding="utf-8") as json_file:
         json.dump(data, json_file, ensure_ascii=False, indent=4)
 
-    print("Arquivo JSON gerado com sucesso: stocks.json")
-
 
 def atualizar_atendimento_ov():
     arquivo = ("\\\\intranet.weg.net@SSL\\DavWWWRoot\\br\\energia-wm\\pcp\\PQWP/PWQP - 2024\\Depto Planejamento e "
@@ -72,13 +70,11 @@ def atualizar_atendimento_ov():
     with open("Indicators/data/OVs.json", "w", encoding="utf-8") as json_file:
         json.dump(data, json_file, ensure_ascii=False, indent=4)
 
-    print("Arquivo JSON gerado com sucesso: OVs.json")
 
 def mesclar_dados():
     data = json.load(open("Indicators/data/stocks.json", "r", encoding="utf-8")) + json.load(open("Indicators/data/OVs.json", "r", encoding="utf-8"))
     with open("Indicators/rest/wen_indicators_database.json", "w", encoding="utf-8") as json_file:
         json.dump(data, json_file, ensure_ascii=False, indent=4)
-    print('Dados para WEN Indicators mesclados com sucesso!')
 
 
 if __name__ == "__main__":
