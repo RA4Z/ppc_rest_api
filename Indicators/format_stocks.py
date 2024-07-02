@@ -72,6 +72,7 @@ def formatar_json(data):
                         item['target'] = [plus['Jan'], plus['Jan'], plus['Feb'], plus['Mar'], plus['Apr'], plus['May'],
                                           plus['Jun'],
                                           plus['Jul'], plus['Aug'], plus['Sep'], plus['Oct'], plus['Nov'], plus['Dec']]
+                        item['Meta'] = plus['Dec']
 
                 item['averages'].append(item['Annualized'])
                 formatted_data.append(item)

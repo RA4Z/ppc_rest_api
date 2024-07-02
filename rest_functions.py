@@ -1,4 +1,4 @@
-from Indicators.get_data import atualizar_stocks, atualizar_atendimento_ov, mesclar_dados
+from Indicators.get_data import atualizar_stocks, atualizar_atendimento_ov, mesclar_dados, resumir_info
 from functions import input_history
 
 from AIs.gemini_chatbot import GeminiAI
@@ -77,6 +77,8 @@ def update():
         atualizar_stocks()
         atualizar_atendimento_ov()
         mesclar_dados()
+        resumir_info()
+
         return 'Sucesso'
 
     except Exception as e:

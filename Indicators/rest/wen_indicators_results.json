@@ -1,0 +1,416 @@
+[
+    {
+        "company": "GLOBAL",
+        "indicator": "Inventory*",
+        "title": "Global Total Inventory*",
+        "average": 1242598.3141178656,
+        "target": 1259163.5757140468,
+        "result": 0.9868442338106966,
+        "country": "Global"
+    },
+    {
+        "company": "GLOBAL",
+        "indicator": "Inventory Turns",
+        "title": "Global Total Inventory Turns",
+        "average": 4.5178267873081515,
+        "target": 4.170905040690824,
+        "result": 1.0831766111270342,
+        "country": "Global"
+    },
+    {
+        "company": "JGS",
+        "indicator": "Inventory*",
+        "title": "JGS Total Inventory*",
+        "average": 383673.8317464524,
+        "target": 412249.63852285716,
+        "result": 0.9306832460089097,
+        "country": "Brazil"
+    },
+    {
+        "company": "JGS",
+        "indicator": "Inventory Turns",
+        "title": "JGS Total Inventory Turns",
+        "average": 4.124584957764965,
+        "target": 4.147435075471149,
+        "result": 0.9944905423978002,
+        "country": "Brazil"
+    },
+    {
+        "company": "WSB",
+        "indicator": "Inventory*",
+        "title": "WSB Total Inventory*",
+        "average": 50370.801005213194,
+        "target": 54737.97325142857,
+        "result": 0.9202167711589249,
+        "country": "Brazil"
+    },
+    {
+        "company": "WSB",
+        "indicator": "Inventory Turns",
+        "title": "WSB Total Inventory Turns",
+        "average": 4.833767264363329,
+        "target": 4.38452477766404,
+        "result": 1.1024609300847956,
+        "country": "Brazil"
+    },
+    {
+        "company": "WTB",
+        "indicator": "Inventory*",
+        "title": "WTB Total Inventory*",
+        "average": 10570.234376,
+        "target": 19401.608755714286,
+        "result": 0.5448122632040391,
+        "country": "Brazil"
+    },
+    {
+        "company": "WTB",
+        "indicator": "Inventory Turns",
+        "title": "WTB Total Inventory Turns",
+        "average": 7.449274010686328,
+        "target": 5.25214176478988,
+        "result": 1.4183307199790232,
+        "country": "Brazil"
+    },
+    {
+        "company": "EOL",
+        "indicator": "Inventory*",
+        "title": "EOL Total Inventory*",
+        "average": 230478.10994000002,
+        "target": 181249.1482625,
+        "result": 1.2716093407854394,
+        "country": "Brazil"
+    },
+    {
+        "company": "EOL",
+        "indicator": "Inventory Turns",
+        "title": "EOL Total Inventory Turns",
+        "average": 9.284426185988186,
+        "target": 6.068994036909288,
+        "result": 1.5298130348331003,
+        "country": "Brazil"
+    },
+    {
+        "company": "WII",
+        "indicator": "Inventory*",
+        "title": "WII Total Inventory*",
+        "average": 107615.63656502297,
+        "target": 108003.29147872729,
+        "result": 0.9964107120403763,
+        "country": "India"
+    },
+    {
+        "company": "WII",
+        "indicator": "Inventory Turns",
+        "title": "WII Total Inventory Turns",
+        "average": 3.2618822118953936,
+        "target": 3.464074198828378,
+        "result": 0.9416317390079665,
+        "country": "India"
+    },
+    {
+        "company": "WEM",
+        "indicator": "Inventory*",
+        "title": "WEM Total Inventory*",
+        "average": 93093.47394040362,
+        "target": 128385.2625,
+        "result": 0.7251102823457142,
+        "country": "United States"
+    },
+    {
+        "company": "WEM",
+        "indicator": "Inventory Turns",
+        "title": "WEM Total Inventory Turns",
+        "average": 2.8403439439709457,
+        "target": 2.9572319515649235,
+        "result": 0.9604738453024889,
+        "country": "United States"
+    },
+    {
+        "company": "WNT",
+        "indicator": "Inventory*",
+        "title": "WNT Total Inventory*",
+        "average": 25165.599496080402,
+        "target": null,
+        "result": null,
+        "country": "China"
+    },
+    {
+        "company": "WNT",
+        "indicator": "Inventory Turns",
+        "title": "WNT Total Inventory Turns",
+        "average": 5.078258456135359,
+        "target": 5.192217821620104,
+        "result": 0.9780518904637967,
+        "country": "China"
+    },
+    {
+        "company": "WPT",
+        "indicator": "Inventory*",
+        "title": "WPT Total Inventory*",
+        "average": 1586.0537299891998,
+        "target": 1422.186358826357,
+        "result": 1.1152221508425046,
+        "country": "Portugal"
+    },
+    {
+        "company": "WPT",
+        "indicator": "Inventory Turns",
+        "title": "WPT Total Inventory Turns",
+        "average": 21.208834637822168,
+        "target": 52.13873662885661,
+        "result": 0.4067769188347376,
+        "country": "Portugal"
+    },
+    {
+        "company": "KANNIS",
+        "indicator": "Inventory*",
+        "title": "KANNIS Total Inventory*",
+        "average": 220120.79256994402,
+        "target": 215248.47432936443,
+        "result": 1.0226357852512542,
+        "country": "Germany"
+    },
+    {
+        "company": "KANNIS",
+        "indicator": "Inventory Turns",
+        "title": "KANNIS Total Inventory Turns",
+        "average": 0.8620166570339253,
+        "target": 2.520698536712375,
+        "result": 0.34197530743133286,
+        "country": "Germany"
+    },
+    {
+        "company": "GLOBAL",
+        "indicator": "Inventory*",
+        "title": "Global sem KANNIS Total Inventory*",
+        "average": 1022477.5215479217,
+        "target": 1043915.1013846826,
+        "result": 0.9794642497188465,
+        "country": "Global"
+    },
+    {
+        "company": "GLOBAL",
+        "indicator": "Inventory Turns",
+        "title": "Global sem KANNIS Total Inventory Turns",
+        "average": 5.304856141403813,
+        "target": 4.511668913960403,
+        "result": 1.1758079421539689,
+        "country": "Global"
+    },
+    {
+        "company": null,
+        "indicator": "Inventory*",
+        "title": "Brasil Total Inventory*",
+        "average": 794999.9707276656,
+        "target": 774638.3687925,
+        "result": 1.0262853000257464,
+        "country": null
+    },
+    {
+        "company": null,
+        "indicator": "Inventory Turns",
+        "title": "Brasil Total Inventory Turns",
+        "average": 5.845876051458997,
+        "target": 4.799624922782416,
+        "result": 1.2179860188054137,
+        "country": null
+    },
+    {
+        "company": "GLOBAL",
+        "indicator": "Inventory*",
+        "title": "Global Raw Material Inventory*",
+        "average": 375398.1855568153,
+        "target": 401014.751569988,
+        "result": 0.9361206391712952,
+        "country": "Global"
+    },
+    {
+        "company": "GLOBAL",
+        "indicator": "Inventory Turns",
+        "title": "Global Raw Material Inventory Turns",
+        "average": 15.609138698044845,
+        "target": 13.497195469806472,
+        "result": 1.156472745242731,
+        "country": "Global"
+    },
+    {
+        "company": "GLOBAL",
+        "indicator": "Inventory*",
+        "title": "Global sem KANNIS Raw Material Inventory*",
+        "average": 375398.1855568153,
+        "target": 401014.751569988,
+        "result": 0.9361206391712952,
+        "country": "Global"
+    },
+    {
+        "company": "GLOBAL",
+        "indicator": "Inventory Turns",
+        "title": "Global sem KANNIS Raw Material Inventory Turns",
+        "average": 15.08155018745679,
+        "target": 12.104127382091923,
+        "result": 1.2459840938034055,
+        "country": "Global"
+    },
+    {
+        "company": "GLOBAL",
+        "indicator": "Inventory*",
+        "title": "Global Work in Process Inventory*",
+        "average": 705496.393795851,
+        "target": 708479.6820448639,
+        "result": 0.9957891689421462,
+        "country": "Global"
+    },
+    {
+        "company": "GLOBAL",
+        "indicator": "Inventory Turns",
+        "title": "Global Work in Process Inventory Turns",
+        "average": 8.169728234644793,
+        "target": 7.610718149046245,
+        "result": 1.0734503728361826,
+        "country": "Global"
+    },
+    {
+        "company": "GLOBAL",
+        "indicator": "Inventory*",
+        "title": "Global sem KANNIS Work in Process Inventory*",
+        "average": 486122.38837325113,
+        "target": 493827.00763359317,
+        "result": 0.9843981411683772,
+        "country": "Global"
+    },
+    {
+        "company": "GLOBAL",
+        "indicator": "Inventory Turns",
+        "title": "Global sem KANNIS Work in Process Inventory Turns",
+        "average": 11.595453077673316,
+        "target": 9.90687284031317,
+        "result": 1.1704453327077091,
+        "country": "Global"
+    },
+    {
+        "company": "GLOBAL",
+        "indicator": "Inventory*",
+        "title": "Global Finished Good Inventory*",
+        "average": 222020.21934092246,
+        "target": 197345.65149271837,
+        "result": 1.1250322348709798,
+        "country": "Global"
+    },
+    {
+        "company": "GLOBAL",
+        "indicator": "Inventory Turns",
+        "title": "Global Finished Good Inventory Turns",
+        "average": 28.671998120732578,
+        "target": 29.1774804538875,
+        "result": 0.982675600316011,
+        "country": "Global"
+    },
+    {
+        "company": "GLOBAL",
+        "indicator": "Inventory*",
+        "title": "Global sem KANNIS Finished Good Inventory*",
+        "average": 221273.43219357842,
+        "target": 196749.8515746247,
+        "result": 1.1246434516859203,
+        "country": "Global"
+    },
+    {
+        "company": "GLOBAL",
+        "indicator": "Inventory Turns",
+        "title": "Global sem KANNIS Finished Good Inventory Turns",
+        "average": 27.808951983200334,
+        "target": 26.252922693928692,
+        "result": 1.0592707070147085,
+        "country": "Global"
+    },
+    {
+        "company": "WSB",
+        "indicator": "Atendimento das OVs",
+        "title": "Atendimento das OVs WSB Serviços e Máquinas Novas",
+        "average": 0.9256756756756757,
+        "target": 0.89,
+        "result": 1.0400850288490737,
+        "country": "Brazil"
+    },
+    {
+        "company": "WTB",
+        "indicator": "Atendimento das OVs",
+        "title": "Atendimento das OVs WTB",
+        "average": 1,
+        "target": null,
+        "result": null,
+        "country": "Brazil"
+    },
+    {
+        "company": "WII",
+        "indicator": "Atendimento das OVs",
+        "title": "Atendimento das OVs WII",
+        "average": 0.8789808917197452,
+        "target": 0.86,
+        "result": 1.0220708043252853,
+        "country": "India"
+    },
+    {
+        "company": "WEM",
+        "indicator": "Atendimento das OVs",
+        "title": "Atendimento das OVs WEM",
+        "average": 0.25,
+        "target": null,
+        "result": null,
+        "country": "United States"
+    },
+    {
+        "company": "WEM",
+        "indicator": "Atendimento das OVs",
+        "title": "Atendimento das OVs WEM Partes e Peças",
+        "average": 0.687693898655636,
+        "target": null,
+        "result": null,
+        "country": "United States"
+    },
+    {
+        "company": "WEM",
+        "indicator": "Atendimento das OVs",
+        "title": "Atendimento das OVs WEM Máquinas e Serviços",
+        "average": 0.7086956521739131,
+        "target": null,
+        "result": null,
+        "country": "United States"
+    },
+    {
+        "company": "TGM",
+        "indicator": "Atendimento das OVs",
+        "title": "Atendimento das OVs TGM",
+        "average": 0.9166666666666666,
+        "target": 0.9,
+        "result": 1.0185185185185184,
+        "country": "Brazil"
+    },
+    {
+        "company": "JGS",
+        "indicator": "Atendimento das OVs",
+        "title": "Atendimento das OVs JGS",
+        "average": 0.8664440734557596,
+        "target": 0.9,
+        "result": 0.9627156371730662,
+        "country": "Brazil"
+    },
+    {
+        "company": "WSB",
+        "indicator": "Atendimento das OVs",
+        "title": "Atendimento das OVs WSB Partes e Peças",
+        "average": 0.9939824945295405,
+        "target": 0.97,
+        "result": 1.0247242211644747,
+        "country": "Brazil"
+    },
+    {
+        "company": "WTB",
+        "indicator": "Atendimento das OVs",
+        "title": "Atendimento das OVs Serviços WTB",
+        "average": 0.2,
+        "target": null,
+        "result": null,
+        "country": "Brazil"
+    }
+]

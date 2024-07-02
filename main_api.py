@@ -40,6 +40,11 @@ def get_wen_replace():
     return jsonify(rest_functions.get_json_file("indicators/replace_list.json"))
 
 
+@app.route('/WenIndicators/Results/Display')
+def get_wen_results():
+    return jsonify(rest_functions.get_json_file("indicators/rest/wen_indicators_results.json"))
+
+
 @app.route('/update')
 def update_api():
     return rest_functions.update()

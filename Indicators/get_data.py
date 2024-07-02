@@ -77,5 +77,32 @@ def mesclar_dados():
         json.dump(data, json_file, ensure_ascii=False, indent=4)
 
 
+def encontrar_empresa_por_titulo(title):
+    data = json.load(open("Indicators/data/indicadores.json", "r", encoding="utf-8"))
+    for item in data:
+        if title in item.get('indicadores', []):
+            return item.get('empresa'), item.get('id')
+    return None, None
+
+def resumir_info():
+    data = json.load(open("Indicators/rest/wen_indicators_database.json", "r", encoding="utf-8"))
+    indicadores = ['Atendimento das OVs', 'Inventory*', 'Inventory Turns']
+    resultado = []
+    for info in data:
+        title = info['Concatenar'] if info.get('Concatenar') else info['Indicador']
+        ultimo_valor = info['averages'][-1]
+
+        for ind in indicadores:
+            if ind in title:
+                empresa, country = encontrar_empresa_por_titulo(title)  # Passar 'data' para a função
+                result = ultimo_valor / info['Meta'] if info.get('Meta') else None
+                resultado.append({'company': empresa, 'indicator': ind, 'title': title, 'average': ultimo_valor,
+                                  'target': info['Meta'], 'result': result, 'country': country})
+                break  # Se encontrou o indicador, passa para o próximo título
+
+    with open("Indicators/rest/wen_indicators_results.json", "w", encoding="utf-8") as json_file:
+        json.dump(resultado, json_file, ensure_ascii=False, indent=4)
+
+
 if __name__ == "__main__":
-    mesclar_dados()
+    resumir_info()
