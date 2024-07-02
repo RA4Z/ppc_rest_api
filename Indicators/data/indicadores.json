@@ -39,8 +39,8 @@
         "indicadores": [
             "WSB Total Inventory*",
             "WSB Total Inventory Turns",
-            "Atendimento das OVs WSB Serviços e Máquinas Novas",
-            "Atendimento das OVs WSB Partes e Peças"
+            "On time Delivery WSB Serviços e Máquinas Novas",
+            "On time Delivery WSB Partes e Peças"
         ]
     },
     {
@@ -48,7 +48,7 @@
         "country": "Brasil",
         "empresa": "TGM",
         "indicadores": [
-            "Atendimento das OVs TGM"
+            "On time Delivery TGM"
         ]
     },
     {
@@ -58,8 +58,8 @@
         "indicadores": [
             "WTB Total Inventory*",
             "WTB Total Inventory Turns",
-            "Atendimento das OVs WTB",
-            "Atendimento das OVs Serviços WTB"
+            "On time Delivery WTB",
+            "On time Delivery Serviços WTB"
         ]
     },
     {
@@ -78,9 +78,9 @@
         "indicadores": [
             "WEM Total Inventory*",
             "WEM Total Inventory Turns",
-            "Atendimento das OVs WEM",
-            "Atendimento das OVs WEM Partes e Peças",
-            "Atendimento das OVs WEM Máquinas e Serviços"
+            "On time Delivery WEM",
+            "On time Delivery WEM Partes e Peças",
+            "On time Delivery WEM Máquinas e Serviços"
         ]
     },
     {
@@ -90,7 +90,7 @@
         "indicadores": [
             "WII Total Inventory*",
             "WII Total Inventory Turns",
-            "Atendimento das OVs WII"
+            "On time Delivery WII"
         ]
     },
     {

@@ -2076,7 +2076,7 @@
         ]
     },
     {
-        "Indicador": "Atendimento das OVs WSB Serviços e Máquinas Novas",
+        "Indicador": "On time Delivery WSB Serviços e Máquinas Novas",
         "Meta": 0.89,
         "Resp. Atualizar": "Anderson",
         "averages": [
@@ -2114,7 +2114,7 @@
             1,
             1,
             1,
-            null,
+            1,
             null,
             null,
             null,
@@ -2124,7 +2124,7 @@
         ]
     },
     {
-        "Indicador": "Atendimento das OVs WTB",
+        "Indicador": "On time Delivery WTB",
         "Meta": null,
         "Resp. Atualizar": "Rogerio",
         "averages": [
@@ -2148,13 +2148,13 @@
         ]
     },
     {
-        "Indicador": "Atendimento das OVs WII",
+        "Indicador": "On time Delivery WII",
         "Meta": 0.86,
         "Resp. Atualizar": null,
         "averages": [
             0.8165374677002584,
             0.8249400479616307,
-            0.8789808917197452
+            0.8776595744680851
         ],
         "data": [
             0.8823529411764706,
@@ -2162,7 +2162,7 @@
             0.9375,
             0.8709677419354839,
             0.8275862068965517,
-            null,
+            0.8709677419354839,
             null,
             null,
             null,
@@ -2172,13 +2172,13 @@
         ]
     },
     {
-        "Indicador": "Atendimento das OVs WEM",
+        "Indicador": "On time Delivery WEM",
         "Meta": null,
         "Resp. Atualizar": null,
         "averages": [
             0.36363636363636365,
             0,
-            0.25
+            0.26666666666666666
         ],
         "data": [
             0.5,
@@ -2186,7 +2186,7 @@
             0,
             0.3333333333333333,
             0.5,
-            null,
+            0.3333333333333333,
             null,
             null,
             null,
@@ -2196,7 +2196,7 @@
         ]
     },
     {
-        "Indicador": "Atendimento das OVs WEM Partes e Peças",
+        "Indicador": "On time Delivery WEM Partes e Peças",
         "Meta": null,
         "Resp. Atualizar": "Anderson",
         "averages": [
@@ -2220,7 +2220,7 @@
         ]
     },
     {
-        "Indicador": "Atendimento das OVs WEM Máquinas e Serviços",
+        "Indicador": "On time Delivery WEM Máquinas e Serviços",
         "Meta": null,
         "Resp. Atualizar": "Anderson",
         "averages": [
@@ -2244,7 +2244,7 @@
         ]
     },
     {
-        "Indicador": "Atendimento das OVs TGM",
+        "Indicador": "On time Delivery TGM",
         "Meta": 0.9,
         "Resp. Atualizar": null,
         "averages": [
@@ -2268,7 +2268,7 @@
         ]
     },
     {
-        "Indicador": "Atendimento das OVs JGS",
+        "Indicador": "On time Delivery JGS",
         "Meta": 0.9,
         "Resp. Atualizar": "Alisson",
         "averages": [
@@ -2292,7 +2292,7 @@
         ]
     },
     {
-        "Indicador": "Atendimento das OVs WSB Partes e Peças",
+        "Indicador": "On time Delivery WSB Partes e Peças",
         "Meta": 0.97,
         "Resp. Atualizar": null,
         "averages": [
@@ -2316,7 +2316,7 @@
         ]
     },
     {
-        "Indicador": "Atendimento das OVs Serviços WTB",
+        "Indicador": "On time Delivery Serviços WTB",
         "Meta": null,
         "Resp. Atualizar": "Rogerio",
         "averages": [

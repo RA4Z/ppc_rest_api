@@ -77,42 +77,42 @@
     },
     {
         "actual": "% Ordens no Prazo WII",
-        "new": "Atendimento das OVs WII"
+        "new": "On time Delivery WII"
     },
     {
         "actual": "% Ordens no Prazo EM",
-        "new": "Atendimento das OVs WEM"
+        "new": "On time Delivery WEM"
     },
     {
         "actual": "% Ordens no Prazo EM Partes e Peças",
-        "new": "Atendimento das OVs WEM Partes e Peças"
+        "new": "On time Delivery WEM Partes e Peças"
     },
     {
         "actual": "% Ordens no Prazo EM Máquinas e Serviços",
-        "new": "Atendimento das OVs WEM Máquinas e Serviços"
+        "new": "On time Delivery WEM Máquinas e Serviços"
     },
     {
         "actual": "% Ordens no Prazo TGM",
-        "new": "Atendimento das OVs TGM"
+        "new": "On time Delivery TGM"
     },
     {
         "actual": "% Ordens no Prazo JGS",
-        "new": "Atendimento das OVs JGS"
+        "new": "On time Delivery JGS"
     },
     {
         "actual": "2.2 Atingir 89% de atendimento das Ordens de Venda de Serviços e Máquinas Novas no prazo em São Bernardo do Campo",
-        "new": "Atendimento das OVs WSB Serviços e Máquinas Novas"
+        "new": "On time Delivery WSB Serviços e Máquinas Novas"
     },
     {
         "actual": "% Ordens no Prazo SBC Partes e peças",
-        "new": "Atendimento das OVs WSB Partes e Peças"
+        "new": "On time Delivery WSB Partes e Peças"
     },
     {
         "actual": "% Atendimento OV no prazo Turbinas   ( VÁLIDO PARA TURBINAS)",
-        "new": "Atendimento das OVs WTB"
+        "new": "On time Delivery WTB"
     },
     {
         "actual": "% Atendimento OV no prazo Serviços de Turbinas",
-        "new": "Atendimento das OVs Serviços WTB"
+        "new": "On time Delivery Serviços WTB"
     }
 ]

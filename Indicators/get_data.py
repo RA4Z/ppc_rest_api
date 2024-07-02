@@ -86,7 +86,7 @@ def encontrar_empresa_por_titulo(title):
 
 def resumir_info():
     data = json.load(open("Indicators/rest/wen_indicators_database.json", "r", encoding="utf-8"))
-    indicadores = ['Atendimento das OVs', 'Inventory*', 'Inventory Turns']
+    indicadores = ['On time Delivery', 'Inventory*', 'Inventory Turns']
     resultado = []
     for info in data:
         title = info['Concatenar'] if info.get('Concatenar') else info['Indicador']
