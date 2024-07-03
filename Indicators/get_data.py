@@ -1,7 +1,12 @@
 import json
 import openpyxl
+import datetime
 import Indicators.format_stocks
 import Indicators.format_ovs
+import Indicators.format_efficiency
+
+target_year = int((datetime.date.today() - datetime.timedelta(days=datetime.date.today().day)).strftime("%Y"))
+
 
 class Excel:
     def __init__(self, file: str, sheet: str):
@@ -27,9 +32,10 @@ class Excel:
                 return col
         return 0
 
+
 def atualizar_stocks():
     arquivo = ("\\\\intranet.weg.net@SSL\\DavWWWRoot\\br\\energia-wm\\pcp\\Comisso de Estoques\\Gráficos de giro de "
-               "estoque\\InventoryManagement_ENERGIA 2024 .xlsm")
+               f"estoque\\InventoryManagement_ENERGIA {target_year} .xlsm")
     excel = Excel(arquivo, 'Database')
     rows = excel.count_rows(1)
     columns = excel.count_columns(1)
@@ -50,8 +56,9 @@ def atualizar_stocks():
 
 
 def atualizar_atendimento_ov():
-    arquivo = ("\\\\intranet.weg.net@SSL\\DavWWWRoot\\br\\energia-wm\\pcp\\PQWP/PWQP - 2024\\Depto Planejamento e "
-               "Controle da Produção 2024.xlsx")
+    arquivo = (
+        f"\\\\intranet.weg.net@SSL\\DavWWWRoot\\br\\energia-wm\\pcp\\PQWP/PWQP - {target_year}\\Depto Planejamento e "
+        f"Controle da Produção {target_year}.xlsx")
     excel = Excel(arquivo, 'Planilha1')
     rows = excel.count_rows(2)
     columns = excel.count_columns(2)
@@ -71,8 +78,33 @@ def atualizar_atendimento_ov():
         json.dump(data, json_file, ensure_ascii=False, indent=4)
 
 
+def atualizar_efficiency():
+    arquivo = ("Q:\\GROUPS\\BR_SC_JGS_WM_LOGISTICA\\PCP\\Suely\\Indicadores Diretoria Industrial\\INDICADORES "
+               f"{target_year}\\Global ID Efficiency {target_year}.xlsm")
+    excel = Excel(arquivo, 'Plan1')
+    rows = excel.count_rows(1)
+    columns = excel.count_columns(4)
+    header = [cell.value for cell in excel.sheet[4]]
+
+    data = []
+
+    for index in range(5, rows + 1):
+        row_data = {}
+        for col in range(1, columns + 1):
+            row_data[header[col - 1]] = excel.get_cell(index, col)
+        data.append(row_data)
+
+    data = Indicators.format_efficiency.formatar_json(data)
+
+    with open("Indicators/data/efficiency.json", "w", encoding="utf-8") as json_file:
+        json.dump(data, json_file, ensure_ascii=False, indent=4)
+
+
 def mesclar_dados():
-    data = json.load(open("Indicators/data/stocks.json", "r", encoding="utf-8")) + json.load(open("Indicators/data/OVs.json", "r", encoding="utf-8"))
+    data = (json.load(open("Indicators/data/stocks.json", "r", encoding="utf-8"))
+            + json.load(open("Indicators/data/OVs.json", "r", encoding="utf-8"))
+            + json.load(open("Indicators/data/efficiency.json", "r", encoding="utf-8")))
+
     with open("Indicators/rest/wen_indicators_database.json", "w", encoding="utf-8") as json_file:
         json.dump(data, json_file, ensure_ascii=False, indent=4)
 
@@ -84,9 +116,10 @@ def encontrar_empresa_por_titulo(title):
             return item.get('empresa'), item.get('id')
     return None, None
 
+
 def resumir_info():
     data = json.load(open("Indicators/rest/wen_indicators_database.json", "r", encoding="utf-8"))
-    indicadores = ['On time Delivery', 'Inventory*', 'Inventory Turns']
+    indicadores = ['On time Delivery', 'Inventory*', 'Inventory Turns', 'Efficiency']
     resultado = []
     for info in data:
         title = info['Concatenar'] if info.get('Concatenar') else info['Indicador']

@@ -1,4 +1,4 @@
-from Indicators.get_data import atualizar_stocks, atualizar_atendimento_ov, mesclar_dados, resumir_info
+import Indicators.get_data
 from functions import input_history
 
 from AIs.gemini_chatbot import GeminiAI
@@ -72,13 +72,14 @@ def get_json_file(filename: str):
         print(str(e))
         return []
 
+
 def update():
     try:
-        atualizar_stocks()
-        atualizar_atendimento_ov()
-        mesclar_dados()
-        resumir_info()
-
+        Indicators.get_data.atualizar_stocks()
+        Indicators.get_data.atualizar_atendimento_ov()
+        Indicators.get_data.atualizar_efficiency()
+        Indicators.get_data.mesclar_dados()
+        Indicators.get_data.resumir_info()
         return 'Sucesso'
 
     except Exception as e:

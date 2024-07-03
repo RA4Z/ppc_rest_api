@@ -387,13 +387,13 @@
         "country": "Brazil"
     },
     {
-        "company": null,
+        "company": "JGS",
         "indicator": "On time Delivery",
         "title": "On time Delivery JGS",
-        "average": 0.8664440734557596,
+        "average": 0.8693877551020408,
         "target": 0.9,
-        "result": 0.9627156371730662,
-        "country": null
+        "result": 0.9659863945578231,
+        "country": "Brazil"
     },
     {
         "company": "WSB",
@@ -412,5 +412,50 @@
         "target": null,
         "result": null,
         "country": "Brazil"
+    },
+    {
+        "company": "JGS",
+        "indicator": "Efficiency",
+        "title": "JGS Efficiency",
+        "average": 0.6732628064030766,
+        "target": null,
+        "result": null,
+        "country": "Brazil"
+    },
+    {
+        "company": "WSB",
+        "indicator": "Efficiency",
+        "title": "WSB Efficiency",
+        "average": 0.6109333842336323,
+        "target": null,
+        "result": null,
+        "country": "Brazil"
+    },
+    {
+        "company": "TGM",
+        "indicator": "Efficiency",
+        "title": "TGM Efficiency",
+        "average": 0.659481645983174,
+        "target": null,
+        "result": null,
+        "country": "Brazil"
+    },
+    {
+        "company": "WEM",
+        "indicator": "Efficiency",
+        "title": "WEM Efficiency",
+        "average": 0.4129633644049426,
+        "target": null,
+        "result": null,
+        "country": "United States"
+    },
+    {
+        "company": "WII",
+        "indicator": "Efficiency",
+        "title": "WII Efficiency",
+        "average": 0.5935779316360464,
+        "target": null,
+        "result": null,
+        "country": "India"
     }
 ]

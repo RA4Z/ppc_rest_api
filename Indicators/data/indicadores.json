@@ -29,7 +29,8 @@
         "indicadores": [
             "JGS Total Inventory*",
             "JGS Total Inventory Turns",
-            "On time Delivery JGS"
+            "On time Delivery JGS",
+            "JGS Efficiency"
         ]
     },
     {
@@ -40,7 +41,8 @@
             "WSB Total Inventory*",
             "WSB Total Inventory Turns",
             "On time Delivery WSB Serviços e Máquinas Novas",
-            "On time Delivery WSB Partes e Peças"
+            "On time Delivery WSB Partes e Peças",
+            "WSB Efficiency"
         ]
     },
     {
@@ -48,7 +50,8 @@
         "country": "Brasil",
         "empresa": "TGM",
         "indicadores": [
-            "On time Delivery TGM"
+            "On time Delivery TGM",
+            "TGM Efficiency"
         ]
     },
     {
@@ -80,7 +83,8 @@
             "WEM Total Inventory Turns",
             "On time Delivery WEM",
             "On time Delivery WEM Partes e Peças",
-            "On time Delivery WEM Máquinas e Serviços"
+            "On time Delivery WEM Máquinas e Serviços",
+            "WEM Efficiency"
         ]
     },
     {
@@ -90,7 +94,8 @@
         "indicadores": [
             "WII Total Inventory*",
             "WII Total Inventory Turns",
-            "On time Delivery WII"
+            "On time Delivery WII",
+            "WII Efficiency"
         ]
     },
     {
